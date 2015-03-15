@@ -8,6 +8,7 @@ using namespace std;
  * Beginnen wir mit der Klasse:
 */
 class calculator {
+public:
 
     float multiply(float zahl1, float zahl2)
     {
@@ -21,7 +22,7 @@ class calculator {
 };
 /*
  * Die Klasse wird mit class Leerzeichen "Klassenname", gefolgt von einem Block erzeugt und mit einem ";" abgeschlossen.
- * unsere Klasse calculator hat zwi Funktionen: multiply() und add(), die jeweils zwei floats übernehmen und dann
+ * unsere Klasse calculator hat zwei Funktionen: multiply() und add(), die jeweils zwei floats übernehmen und dann
  * multiplizieren bzw addieren und das Ergebnis zurückgeben.
 */
 
@@ -34,6 +35,11 @@ int main()
     cout << "Do you want no add two numbers [1] or to multiply two numbers [2] ?" << endl;
 
     int select = 0;
+    
+    /*
+     *Unsere oben definierte Klasse ist ein neuer Datentyp. Nun müssen wir davon ein Exemplar erzeugen. Das funktioniert wie bei allen Variablen:
+     */
+    
     calculator calc;
 
     cin >> select;
