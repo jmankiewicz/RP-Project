@@ -209,4 +209,4 @@ int main(int argc, char *argv[]) //Deklaration von main und nachfolgend der Bloc
  * Soweit so unspannend. Wir wissen nun ein wenig über die Grundlagen von C++ und haben
  * einen kurzen Blick auf die Struktur des Quelltexts geworfen. Die nachfolgendne Beispiele werden
  * deutlich Quelltext-zentrierter sein. Da werden uns diese wenigen aber wichtigen Vorkenntnisse 
- * beim Einstieg helfen.
+ * beim Einstieg helfen.*/
